@@ -1,0 +1,12 @@
+#include<Stdio.h>
+void main()
+{
+ int n;
+ printf("Enter a Number:- ");
+ scanf("%d",&n);
+ if(n%2==0)
+  printf("Entered Number is a Even");
+ else
+  printf("Entered Number is an Odd");
+ getch();
+ }
